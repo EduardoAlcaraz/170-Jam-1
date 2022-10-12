@@ -44,6 +44,9 @@ TagManager:
   - name: apartment
     uniqueID: 2745502833
     locked: 0
+  - name: doormat
+    uniqueID: 3191750335
+    locked: 0
   - name: player
     uniqueID: 66287741
     locked: 0
