@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: apartment
+    uniqueID: 2745502833
+    locked: 0
+  - name: player
+    uniqueID: 66287741
+    locked: 0
