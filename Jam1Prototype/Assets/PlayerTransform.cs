@@ -25,12 +25,12 @@ public class PlayerTransform : MonoBehaviour
 
         if (horizontal_direction > 0)
         {
-            gameObject.transform.localScale = new Vector3(-0.3f, 0.3f, 0.3f);
+            gameObject.transform.localScale = new Vector3(-0.4f, 0.4f, 0.4f);
         }
 
         if (horizontal_direction < 0)
         {
-            gameObject.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+            gameObject.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
         }
     }
 }
