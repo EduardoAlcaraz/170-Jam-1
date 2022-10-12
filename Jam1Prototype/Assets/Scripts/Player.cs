@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float speed = 10.0f;
+    public float speed = 1.0f;
 
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
 
     }
 
@@ -25,12 +26,12 @@ public class Player : MonoBehaviour
 
         if (horizontal_direction > 0)
         {
-            gameObject.transform.localScale = new Vector3(-4f, 4f, 4f);
+            gameObject.transform.localScale = new Vector3(-1f, 1f, 1f);
         }
 
         if (horizontal_direction < 0)
         {
-            gameObject.transform.localScale = new Vector3(4f, 4f, 4f);
+            gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
         }
     }
 }
