@@ -537,7 +537,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 1fb0db12beb89414aa6a831c9066be05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.26, y: 0.34}
@@ -554,8 +554,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451163556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.07, y: -8.08, z: 0}
-  m_LocalScale: {x: 0.6294188, y: 0.5539601, z: 4}
+  m_LocalPosition: {x: 17.6464, y: -8.8757, z: 0}
+  m_LocalScale: {x: 0.50164676, y: 0.44150618, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -621,6 +621,7 @@ GameObject:
   - component: {fileID: 452985445}
   - component: {fileID: 452985444}
   - component: {fileID: 452985447}
+  - component: {fileID: 452985448}
   m_Layer: 0
   m_Name: Banana (4)
   m_TagString: Untagged
@@ -656,7 +657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1753738839}
-  sceneIndex: 0
+  sceneIndex: 3
 --- !u!61 &452985445
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -745,6 +746,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c195d1f2e4f32444bf9f37907583a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &452985448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452985442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2800159485cfab47a7a0941797ff258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &732477685
@@ -924,6 +937,7 @@ GameObject:
   - component: {fileID: 1252121972}
   - component: {fileID: 1252121971}
   - component: {fileID: 1252121975}
+  - component: {fileID: 1252121976}
   m_Layer: 0
   m_Name: Banana (3)
   m_TagString: Untagged
@@ -944,7 +958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1993407107}
-  sceneIndex: 0
+  sceneIndex: 3
 --- !u!61 &1252121972
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1050,6 +1064,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c195d1f2e4f32444bf9f37907583a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1252121976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252121970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2800159485cfab47a7a0941797ff258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1424907335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,6 +1089,7 @@ GameObject:
   - component: {fileID: 1424907337}
   - component: {fileID: 1424907336}
   - component: {fileID: 1424907340}
+  - component: {fileID: 1424907341}
   m_Layer: 0
   m_Name: Banana (1)
   m_TagString: Untagged
@@ -1083,7 +1110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1753738839}
-  sceneIndex: 0
+  sceneIndex: 3
 --- !u!61 &1424907337
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1189,6 +1216,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c195d1f2e4f32444bf9f37907583a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1424907341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424907335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2800159485cfab47a7a0941797ff258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1587467658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,8 +1305,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587467658}
   m_LocalRotation: {x: -0.026509838, y: -0, z: -0, w: 0.99964863}
-  m_LocalPosition: {x: 4.222, y: -2.0804, z: 0.2038}
-  m_LocalScale: {x: 1.6643444, y: 1.3870509, z: 1}
+  m_LocalPosition: {x: 4.1469, y: -2.0804, z: 0.2038}
+  m_LocalScale: {x: 1.9719634, y: 1.3870509, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1619,6 +1658,7 @@ GameObject:
   - component: {fileID: 1700170986}
   - component: {fileID: 1700170985}
   - component: {fileID: 1700170989}
+  - component: {fileID: 1700170990}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -1639,7 +1679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 191821597}
-  sceneIndex: 0
+  sceneIndex: 3
 --- !u!61 &1700170986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1743,6 +1783,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c195d1f2e4f32444bf9f37907583a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1700170990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700170984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2800159485cfab47a7a0941797ff258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1753738838
@@ -2107,7 +2159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.8470589, g: 0.8470589, b: 0.8470589, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2168,6 +2220,7 @@ GameObject:
   - component: {fileID: 2116858299}
   - component: {fileID: 2116858298}
   - component: {fileID: 2116858302}
+  - component: {fileID: 2116858303}
   m_Layer: 0
   m_Name: Banana (2)
   m_TagString: Untagged
@@ -2188,7 +2241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1250184422}
-  sceneIndex: 0
+  sceneIndex: 3
 --- !u!61 &2116858299
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2292,5 +2345,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c195d1f2e4f32444bf9f37907583a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2116858303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116858297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2800159485cfab47a7a0941797ff258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

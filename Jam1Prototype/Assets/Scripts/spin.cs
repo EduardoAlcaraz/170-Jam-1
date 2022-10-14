@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class spin : MonoBehaviour
 {
@@ -36,9 +37,16 @@ public class spin : MonoBehaviour
                 if(progress >= 1){
                     spinning = false;
                     progress = 1;
+                    StartCoroutine(DelayedLoad("fire", 3f));
                 }
                 Debug.Log(progress);
             }
         }
     }   
+
+    IEnumerator DelayedLoad(string newScene, float delay) {
+        Debug.Log("delayed load");
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(newScene, LoadSceneMode.Single);
+    }
 }
