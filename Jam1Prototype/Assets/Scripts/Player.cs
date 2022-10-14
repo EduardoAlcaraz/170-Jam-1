@@ -13,8 +13,12 @@ public class Player : MonoBehaviour
 
     }
 
+    //public float speed = 1.0f;
+    bool facingRight = true;
+
+
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float horizontal_direction = Input.GetAxis("Horizontal");
         float vertical_direction = Input.GetAxis("Vertical");
@@ -24,14 +28,27 @@ public class Player : MonoBehaviour
         position.y += vertical_direction * this.speed * Time.deltaTime;
         transform.position = position;
 
-        if (horizontal_direction > 0)
+        if (horizontal_direction > 0 && facingRight)
         {
-            gameObject.transform.localScale = new Vector3(-1f, 1f, 1f);
+            //gameObject.transform.localScale = new Vector3(-1f, 1f, 1f);
+            Flip();
+
         }
 
-        if (horizontal_direction < 0)
+        if (horizontal_direction < 0 && !facingRight)
         {
-            gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
+            //gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
+            Flip();
+
         }
+    }
+
+    //Flip player sprite
+    void Flip()
+    {
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+        facingRight = !facingRight;
     }
 }
