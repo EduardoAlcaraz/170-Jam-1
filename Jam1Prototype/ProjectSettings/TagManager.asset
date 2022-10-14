@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - GameMusic
   layers:
   - Default
   - TransparentFX
@@ -67,5 +68,4 @@ TagManager:
     locked: 0
   - name: 5
     uniqueID: 346645679
-
     locked: 0
