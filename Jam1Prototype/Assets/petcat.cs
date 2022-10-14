@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class petcat : MonoBehaviour
 {
+    
     public Sprite cat_down;
     public Sprite cat_up;
     SpriteRenderer s;
@@ -23,6 +24,8 @@ public class petcat : MonoBehaviour
             }else{
                 s.sprite = cat_down;
             }
+
+            
         }
     }
 }
