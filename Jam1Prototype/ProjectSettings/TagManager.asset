@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: apartment
+    uniqueID: 2745502833
+    locked: 0
+  - name: doormat
+    uniqueID: 3191750335
+    locked: 0
+  - name: player
+    uniqueID: 66287741
+    locked: 0
+  - name: top
+    uniqueID: 1604002669
+    locked: 0
+  - name: really top
+    uniqueID: 2903292171
+    locked: 0

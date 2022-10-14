@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float speed = 10.0f;
+    public float speed = 1.0f;
 
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
 
     }
 
