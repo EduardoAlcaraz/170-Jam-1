@@ -7,14 +7,9 @@ public class Player : MonoBehaviour
     public float speed = 1.0f;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
-
-    }
 
     //public float speed = 1.0f;
-    bool facingRight = true;
+    bool facingRight = false;
 
 
     // Update is called once per frame

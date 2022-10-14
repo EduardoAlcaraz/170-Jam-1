@@ -38,7 +38,7 @@ public class progress : MonoBehaviour
 
         if(end == false && progInt >= 25){
             end = true;
-            StartCoroutine(DelayedLoad("Home", 3f));
+            StartCoroutine(DelayedLoad("gumball", 3f));
         }
     }
 
