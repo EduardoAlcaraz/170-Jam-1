@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 41234042}
   - component: {fileID: 41234041}
+  - component: {fileID: 41234043}
   m_Layer: 0
   m_Name: PaintingStyle
   m_TagString: Untagged
@@ -207,6 +208,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &41234043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41234040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877aa008b644b3f47b9bd61dcf9c17a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smile: {fileID: 21300000, guid: 2cebc9357610107468f486fc0e1b64e1, type: 3}
 --- !u!1 &187031156
 GameObject:
   m_ObjectHideFlags: 0
