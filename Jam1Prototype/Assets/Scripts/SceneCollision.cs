@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneCollision : MonoBehaviour
 {
-    string SceneID = "Bedroom1";
+    public float SceneID = 1f;
 
     // Start is called before the first frame update
     void Start()
