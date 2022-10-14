@@ -657,7 +657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1753738839}
-  sceneIndex: 2
+  sceneIndex: 3
 --- !u!61 &452985445
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -958,7 +958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1993407107}
-  sceneIndex: 2
+  sceneIndex: 3
 --- !u!61 &1252121972
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1110,7 +1110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1753738839}
-  sceneIndex: 2
+  sceneIndex: 3
 --- !u!61 &1424907337
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 191821597}
-  sceneIndex: 2
+  sceneIndex: 3
 --- !u!61 &1700170986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2241,7 +2241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1250184422}
-  sceneIndex: 2
+  sceneIndex: 3
 --- !u!61 &2116858299
 BoxCollider2D:
   m_ObjectHideFlags: 0
