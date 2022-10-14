@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneCollision : MonoBehaviour
 {
-    string SceneID = "Bedroom1";
+    public float SceneID = 1f;
+    public string NextScene = "SquigglyMan";
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,7 @@ public class SceneCollision : MonoBehaviour
         {
            Debug.Log("hit " + hit.transform.gameObject.name);
            Debug.Log(SceneID);
-           SceneManager.LoadScene("BananaRoom", LoadSceneMode.Single);
+           SceneManager.LoadScene(NextScene, LoadSceneMode.Single);
         }
     }
 }
