@@ -620,6 +620,7 @@ GameObject:
   - component: {fileID: 452985446}
   - component: {fileID: 452985445}
   - component: {fileID: 452985444}
+  - component: {fileID: 452985447}
   m_Layer: 0
   m_Name: Banana (4)
   m_TagString: Untagged
@@ -734,6 +735,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &452985447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452985442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c195d1f2e4f32444bf9f37907583a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &732477685
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,6 +923,7 @@ GameObject:
   - component: {fileID: 1252121973}
   - component: {fileID: 1252121972}
   - component: {fileID: 1252121971}
+  - component: {fileID: 1252121975}
   m_Layer: 0
   m_Name: Banana (3)
   m_TagString: Untagged
@@ -1024,6 +1038,18 @@ Transform:
   m_Father: {fileID: 732477686}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.295}
+--- !u!114 &1252121975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252121970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c195d1f2e4f32444bf9f37907583a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1424907335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,6 +1062,7 @@ GameObject:
   - component: {fileID: 1424907338}
   - component: {fileID: 1424907337}
   - component: {fileID: 1424907336}
+  - component: {fileID: 1424907340}
   m_Layer: 0
   m_Name: Banana (1)
   m_TagString: Untagged
@@ -1150,6 +1177,18 @@ Transform:
   m_Father: {fileID: 732477686}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -14.836, y: -18.622, z: 142.77}
+--- !u!114 &1424907340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424907335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c195d1f2e4f32444bf9f37907583a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1587467658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,6 +1618,7 @@ GameObject:
   - component: {fileID: 1700170987}
   - component: {fileID: 1700170986}
   - component: {fileID: 1700170985}
+  - component: {fileID: 1700170989}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -1693,6 +1733,18 @@ Transform:
   m_Father: {fileID: 732477686}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1700170989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700170984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c195d1f2e4f32444bf9f37907583a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1753738838
 GameObject:
   m_ObjectHideFlags: 0
@@ -2115,6 +2167,7 @@ GameObject:
   - component: {fileID: 2116858300}
   - component: {fileID: 2116858299}
   - component: {fileID: 2116858298}
+  - component: {fileID: 2116858302}
   m_Layer: 0
   m_Name: Banana (2)
   m_TagString: Untagged
@@ -2229,3 +2282,15 @@ Transform:
   m_Father: {fileID: 732477686}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.295}
+--- !u!114 &2116858302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116858297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c195d1f2e4f32444bf9f37907583a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
