@@ -13,10 +13,13 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
     path: 
-    guid: a3556d316e0a38d4dba34e1fadc0746c
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/BananaRoom.unity
     guid: 8a9b1e28685e075459ad3acf05fb6190
+  - enabled: 1
+    path: Assets/Scenes/mal.unity
+    guid: 6db3f5c0a83ba9049abbc67dd70366db
   - enabled: 1
     path: Assets/Scenes/SquigglyMan.unity
     guid: c33271a5eaee57140b354340c2475fe8
