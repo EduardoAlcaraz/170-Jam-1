@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class progress : MonoBehaviour
 {
@@ -23,7 +24,8 @@ public class progress : MonoBehaviour
     {
 
         bool isPressed = Input.GetKeyDown(KeyCode.Space);
-
+        bool end = false;
+        
         if(isPressed){
             progInt++;
         }
@@ -33,5 +35,16 @@ public class progress : MonoBehaviour
         }else if(progInt >= 20){
             s.sprite = face3;
         }
+
+        if(end == false && progInt >= 25){
+            end = true;
+            StartCoroutine(DelayedLoad("Home", 3f));
+        }
+    }
+
+    IEnumerator DelayedLoad(string newScene, float delay) {
+        Debug.Log("delayed load");
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(newScene, LoadSceneMode.Single);
     }
 }
