@@ -94,7 +94,7 @@ public class SquiggleArmLeft : MonoBehaviour
         if (correctLL && correctRL && correctLA && correctRA && !ending) {
             ending = true;
             //SceneManager.LoadScene("Home", LoadSceneMode.Single);
-            StartCoroutine(DelayedLoad("Home", 3f));
+            StartCoroutine(DelayedLoad("BananaRoom", 3f));
         }
         
     }
